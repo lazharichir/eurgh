@@ -1,6 +1,6 @@
 {
 	"name": "eurgh",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Extendable and strongly-typed custom errors for TypeScript.",
 	"author": "Lazhar Ichir",
 	"license": "GNU General Public License v3.0",

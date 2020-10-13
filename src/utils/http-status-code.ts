@@ -1,8 +1,10 @@
 export const HTTP_STATUS_CODES = {
+	// 1xx
 	"100": `Continue`,
 	"101": `Switching Protocols`,
 	"102": `Processing`,
 	"103": `Early Hints`,
+	// 2xx
 	"200": `OK`,
 	"201": `Created`,
 	"202": `Accepted`,
@@ -21,6 +23,7 @@ export const HTTP_STATUS_CODES = {
 	"305": `Use Proxy`,
 	"307": `Temporary Redirect`,
 	"308": `Permanent Redirect`,
+	// 4xx
 	"400": `Bad Request`,
 	"401": `Unauthorized`,
 	"402": `Payment Required`,
@@ -50,6 +53,7 @@ export const HTTP_STATUS_CODES = {
 	"429": `Too Many Requests`,
 	"431": `Request Header Fields Too Large`,
 	"451": `Unavailable For Legal Reasons`,
+	// 5xx
 	"500": `Internal Server Error`,
 	"501": `Not Implemented`,
 	"502": `Bad Gateway`,

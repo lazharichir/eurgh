@@ -1,4 +1,6 @@
+export * from "./errors/already-exists"
 export * from "./errors/exception"
+export * from "./errors/failed-operation"
 export * from "./errors/not-found"
 export * from "./errors/repository"
 export * from "./errors/timeout"
